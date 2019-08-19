@@ -1,0 +1,4 @@
+node_modules/
+dist/
+isite/data/webpack.json
+./idea/

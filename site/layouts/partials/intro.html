@@ -1,0 +1,10 @@
+{{ $intro := .Site.Data.intro }}
+<section id="experience" class="yellow">
+    <h2 class="heading">{{ $intro.title }}</h2>
+    {{ range $key, $element := sort $intro.content "rank" "asc" }}
+
+    <h6> {{ $element.title }}</h6>
+    <p>{{ (replace $element.text "\n" "<br/>") | safeHTML}}</p>
+
+    {{ end }}
+</section>

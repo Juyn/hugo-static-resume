@@ -4,6 +4,9 @@
 		"PHP" : "90",
 		"Symfony" : "80",
 		"Laravel" : "65",
-		"Photoshop" : "97"
+		"Unit tests" : "80",
+		"Javascript" : "65",
+		"Architecture" : "80",
+		"Teaching": "70"
 	}
 }

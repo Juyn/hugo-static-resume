@@ -1,0 +1,8 @@
+{
+  "title": "Who am I ?",
+  "content": [
+    {"rank": 10, "title": "Looking for", "text": "Today, I'm looking for a new Lead Developer position, in a challenging environment. \n\n It is really important to me to have the opportunity to train and helps developers, and to be involved in architecture discussions."},
+    {"rank": 0, "title": "Presentation", "text": "I am a 30 years old engineer, father of one, specialized on WEB development, and, more precisely in PHP. \n Since I start coding, almost 10 years ago, I've learned a lot, from basic development concepts to clean code and architecture. \n\n In love with the best practices and with the idea of sharing every piece of code related knowledge, I always take the time to help junior developer (and seniors !) to improve their coding skills and their comprehension of the different concepts and paradigms."},
+    {"rank": 20, "title": "Where ?", "text": "I am living near Lyon, in France"}
+  ]
+}

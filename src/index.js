@@ -1,5 +1,3 @@
-// JS Goes here - ES6 supported
-
 import "./css/main.css";
 import "./css/styles.scss";
 
@@ -44,12 +42,12 @@ $(document).ready(function() {
   for (let i = 0; i < elements.length; i++) {
     setTimeout(function() {
       $(elements[i].tagName).addClass("bs");
-    }, (400 * i) - 90 * i);
+    }, (400 * i) - 300 * i);
   }
 
   setTimeout(function() {
     $(".main-content").addClass("active");
-  }, 1900);
+  }, 500);
 
   $("#sidebar a.btn[href='#contact']").on("click", function (event) {
     event.preventDefault();
